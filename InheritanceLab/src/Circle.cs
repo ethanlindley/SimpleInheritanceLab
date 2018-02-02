@@ -13,19 +13,9 @@ namespace InheritanceLab
             this.color = color;
         }
 
-        public void SetRadius(double radius)
-        {
-            this.radius = radius;
-        }
-
         public double GetRadius()
         {
             return this.radius;
-        }
-
-        public void SetColor(String color)
-        {
-            this.color = color;
         }
 
         public String GetColor()

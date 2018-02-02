@@ -12,11 +12,6 @@ namespace InheritanceLab
             this.height = height;
         }
 
-        public void SetHeight(double height)
-        {
-            this.height = height;
-        }
-
         public double GetHeight()
         {
             return this.height;
