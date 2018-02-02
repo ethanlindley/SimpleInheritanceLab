@@ -6,6 +6,21 @@ namespace InheritanceLab
     {
         double height;
 
+        public Cylinder() : base()
+        {
+            this.height = 1.0;
+        }
+
+        public Cylinder(double radius) : base(radius)
+        {
+            this.height = 1.0;
+        }
+
+        public Cylinder(double radius, double height) : base(radius)
+        {
+            this.height = height;
+        }
+
         public Cylinder(double radius, double height, String color) 
             : base(radius, color)
         {

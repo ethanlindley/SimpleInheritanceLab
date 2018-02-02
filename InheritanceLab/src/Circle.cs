@@ -4,8 +4,20 @@ namespace InheritanceLab
 {
     public class Circle
     {
-        double radius;
-        String color;
+        private double radius;
+        private String color;
+
+        public Circle()
+        {
+            this.radius = 1.0;
+            this.color = "red";
+        }
+
+        public Circle(double radius)
+        {
+            this.radius = radius;
+            this.color = "red";
+        }
 
         public Circle(double radius, string color)
         {
