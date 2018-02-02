@@ -4,7 +4,7 @@ namespace InheritanceLab
 {
     public class Cylinder : Circle
     {
-        double height;
+        private double height;
 
         public Cylinder() : base()
         {
